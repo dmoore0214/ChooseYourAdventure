@@ -1,9 +1,22 @@
 *{
     background-color: purple;
-    
 }
 
 .title-page{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title{
+    display: flex;
     align-items: center;
     justify-content: center;
+}
+
+button .start{
+    background-color: grey;
+    height: 100px;
+    width: 400px;
 }
